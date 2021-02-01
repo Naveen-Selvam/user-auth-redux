@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  font-size: 1.3rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  text-align: center;
+  padding: 2rem;
+}
+input {
+  height: 1.5rem;
+  width: 15rem;
+  margin-bottom: 0.5rem;
+}
+button {
+  height: 2rem;
+  width: 5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+input::placeholder {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  color: red;
+}
+h6 {
+  text-align: center;
+  color: green;
+}
+.notesForm {
+  text-align: left;
+}
+.notesinput::placeholder {
+  text-align: left;
+}
